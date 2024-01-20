@@ -1,0 +1,25 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dongqui/stock.git",
+  "author": "Dongjin <dongqui9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js --env-file=.env",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.2",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.11.5",
+    "dotenv-cli": "^7.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
